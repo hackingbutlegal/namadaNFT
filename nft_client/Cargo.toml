@@ -5,7 +5,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-namada_sdk = "0.48.0"       # Replace with the correct version
+namada_sdk = "0.48.0"
 nft_contract = { path = "../nft_contract" }  # if you want to share types
-tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+# tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 serde = { version = "1.0", features = ["derive"] }
