@@ -17,7 +17,6 @@ libc = "0.2.171"
 
 [dependencies.getrandom]
 version = "0.3.2"
-# features = ["wasm-bindgen"]
 
 [profile.release]
 opt-level = "z"           # Optimize for size if needed
