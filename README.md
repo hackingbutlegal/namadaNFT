@@ -1,6 +1,6 @@
 # NamadaNFT Standard
 
-A cross-chain NFT project featuring an on-chain NFT smart contract and an off-chain client for interacting with the Namada blockchain. This project demonstrates how to implement a custom NFT standard on Namada using Rust and WASM, with an integrated client to mint, transfer, and query NFTs. It is organized as a Cargo workspace containing two crates: one for the NFT contract and one for the client application.
+A set of programs featuring an on-chain NFT smart contract and an off-chain client for interacting with the Namada blockchain. This project aims to implement a custom NFT standard on Namada using Rust and WASM, with an integrated client to mint, transfer, and query NFTs. It is organized as a Cargo workspace containing two crates: one for the NFT contract and one for the client application.
 
 ## Table of Contents
 
