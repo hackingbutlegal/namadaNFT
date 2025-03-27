@@ -73,8 +73,8 @@ Before getting started, ensure you have the following installed:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your_username/my_nft_project.git
-   cd my_nft_project
+   git clone https://github.com/your_username/namadaNFT.git
+   cd namadaNFT
    ```
 
 2. **Workspace Setup:**  
