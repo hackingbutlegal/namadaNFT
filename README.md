@@ -1,6 +1,4 @@
-````markdown
-```markdown
-# My NFT Project on Namada
+# NamadaNFT Standard
 
 A cross-chain NFT project featuring an on-chain NFT smart contract and an off-chain client for interacting with the Namada blockchain. This project demonstrates how to implement a custom NFT standard on Namada using Rust and WASM, with an integrated client to mint, transfer, and query NFTs. It is organized as a Cargo workspace containing two crates: one for the NFT contract and one for the client application.
 
@@ -28,8 +26,8 @@ The project is designed to work on Namada’s testnet and mainnet. It follows mo
 
 ## Folder Structure
 
-```plaintext
-my_nft_project/
+```
+namadaNFT/
 ├── Cargo.toml               # Workspace manifest listing all crates
 ├── README.md                # This file
 ├── nft_contract/            # On-chain NFT contract (smart contract)
@@ -43,8 +41,7 @@ my_nft_project/
     └── src/
         ├── main.rs          # Entry point for the client application
         ├── explorer.rs      # (Optional) Module for blockchain explorer integration
-        └── tests/           # Integration tests for client functionality
-            └── mod.rs
+        └── tests.rs         # Integration tests for client functionality
 ```
 
 ## Prerequisites
