@@ -8,7 +8,7 @@ edition = "2021"
 crate-type = ["cdylib"]   # Ensure WASM compatibility
 
 [dependencies]
-namada_core = "1.1.1"     # Replace with appropriate version
+namada_core = "0.48.0"     # Replace with appropriate version
 # namada_storage = "x.y.z"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
