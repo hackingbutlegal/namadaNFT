@@ -7,5 +7,5 @@ members = [
 
 resolver = "2"
 
-[patch.crates-io]
-getrandom = { path = "./local_getrandom", features = ["js"] }
+# [patch.crates-io]
+# getrandom = { path = "./local_getrandom", features = ["js"] }

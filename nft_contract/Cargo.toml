@@ -16,7 +16,7 @@ tokio = { version = "1", default-features = false, features = ["macros", "io-uti
 
 [dependencies.getrandom]
 version = "0.3.2"
-features = ["wasm-bindgen"]
+# features = ["wasm-bindgen"]
 
 [profile.release]
 opt-level = "z"           # Optimize for size if needed
