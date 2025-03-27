@@ -12,13 +12,14 @@ namada_core = "0.48.0"
 # namada_storage = "x.y.z"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1", default-features = "false", features = [macros", "io-util", "rt", "time"] }
 
 # [dependencies.tokio]
 # version = "1.44.1"
 # default-features = false
 # features = ["macros", "io-util", "rt", "time"]
 
+# Original notation
 # tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 
 
