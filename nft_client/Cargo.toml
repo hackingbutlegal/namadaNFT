@@ -1,0 +1,13 @@
+# nft_client/Cargo.toml
+[package]
+name = "nft_client"
+version = "0.1.0"
+edition = "2025"
+
+[dependencies]
+namada_sdk = "1.1.1"       # Replace with the correct version
+nft_contract = { path = "../nft_contract" }  # if you want to share types
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+serde = { version = "1.0", features = ["derive"] }
+# ... any other dependencies
+

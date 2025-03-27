@@ -1,0 +1,7 @@
+# my_nft_project/Cargo.toml
+[workspace]
+members = [
+    "nft_contract",
+    "nft_client",
+]
+
