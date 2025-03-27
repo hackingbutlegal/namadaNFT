@@ -5,3 +5,4 @@ members = [
     "nft_client",
 ]
 
+resolver = "2"
