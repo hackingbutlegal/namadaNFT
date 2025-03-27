@@ -3,6 +3,7 @@
 name = "nft_client"
 version = "0.1.0"
 edition = "2021"
+resolver = "2"
 
 [dependencies]
 namada_sdk = "0.48.0"       # Replace with the correct version
