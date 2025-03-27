@@ -12,7 +12,12 @@ namada_core = "0.48.0"     # Replace with appropriate version
 # namada_storage = "x.y.z"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-# ... any other dependencies
+
+[dependencies.tokio]
+version = "1.44.1"
+default-features = false
+features = ["macros", "io-util", "rt", "time"]
+
 
 [profile.release]
 opt-level = "z"           # Optimize for size if needed
