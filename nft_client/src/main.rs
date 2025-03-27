@@ -18,6 +18,16 @@ use nft_module::{
     VisibilityLevel,
 };
 
+use getrandom::Error;
+
+#[no_mangle]
+unsafe extern "Rust" fn __getrandom_v03_custom(
+    dest: *mut u8,
+    len: usize,
+) -> Result<(), Error> {
+    todo!()
+}
+
 /// NFT Minting Client for Namada.
 pub struct NftMintClient {
     client: NamadaClient,
